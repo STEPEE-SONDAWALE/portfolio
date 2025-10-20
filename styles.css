@@ -9,13 +9,13 @@
     display: grid;
     grid-template-columns: repeat(10,1fr );
     grid-template-rows: repeat(10, 1fr);
-    background-color: aqua;
+    background-color: rgb(207, 216, 216);
 }
 .navbar{
     display: flex;
     grid-column: 1/11;
     grid-row: 1/2;
-    background-color: azure;
+    background-color: rgb(234, 238, 238);
     /* justify-content: end; */
     /* align-items: center; */
 }
@@ -52,4 +52,61 @@
     /* background-color: bisque; */
      margin-left: auto;
      text-decoration: underline;
+}
+.heroection{
+    display: flex;
+    grid-column: 1/11;
+    grid-row: 2/11;
+    /* background-color: brown; */
+}
+.part1{
+    height: 100%;
+    width: 55%;
+    /* background-color: coral; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.midbox{
+   height: 60%;
+   width:75%;
+    /* background-color: aqua; */
+    margin-right: 2rem;
+}
+.P20{
+    margin-top: 45px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: wavy;
+    text-transform: capitalize;
+}
+.P50{
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: wavy;
+    text-transform: capitalize;
+}
+.P50 p{
+    color: rgb(91, 91, 92);
+}
+.P30 button{
+    margin-top: 15px;
+   margin-left: 10px;
+     font-size: 15px;
+    font-weight: bold;
+    text-decoration: wavy;
+    text-transform: capitalize;
+}
+.part2{
+    border: 6px solid rgb(56, 56, 56);
+    border-radius: 30px;
+    margin-top: 3.5rem;
+    height: 85%;
+    width: 28%;
+    /* background-color: darkcyan; */
+    overflow:hidden;
+}
+.part2 img{
+    object-fit:cover;
+    margin-bottom: 2rem;
 }
