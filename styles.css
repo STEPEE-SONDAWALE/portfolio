@@ -88,6 +88,7 @@
 }
 .P50 p{
     color: rgb(91, 91, 92);
+   /* animation: 3s ease-in 1s infinite; */
 }
 .P30 button{
     margin-top: 15px;
@@ -109,4 +110,30 @@
 .part2 img{
     object-fit:cover;
     margin-bottom: 2rem;
+}
+
+/* container 2 is starting  */
+.cont2{
+    height:100vh;
+    width:100%;
+    background-color: rgb(207, 216, 216);
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(10, 1fr);
+    display: grid;
+}
+.aboutMe{
+    grid-column: 1/10;
+    grid-row: 1/2;
+    background-color: rgb(221, 150, 150);
+    width:80%;
+    margin-left: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutMe p{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+   text-decoration: underline;
 }
