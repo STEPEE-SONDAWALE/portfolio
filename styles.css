@@ -178,3 +178,8 @@
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
 } */
+ .dicription{
+    grid-column: 5/11;
+    grid-row: 3/7;
+    background-color: rgb(150, 221, 150); 
+ }
