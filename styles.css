@@ -139,9 +139,9 @@
     width: 100%;
     /* background-color: blue; */
     font-size: 40px;
-    font-weight: bold;
+    /* font-weight: bold; */
     text-transform: uppercase;
-   text-decoration: underline;
+   /* text-decoration: underline; */
 }
 .socialMedia{
     height: 50%;
@@ -221,7 +221,7 @@
     display: grid;
     background-color: rgb(221, 223, 223);
     grid-template-columns: repeat(10,1fr);
-    grid-template-rows: repeat(10, 1fr); 
+    grid-template-rows: repeat(9, 1fr); 
    /* gap: 60px;  */
 }
 .box1{
@@ -242,7 +242,7 @@
 }
 .box1 , .box2 , .box3 , .box4{
     background-color: rgb(255, 255, 255);
-    margin: 20px;
+    margin: 30px;
     border-radius: 20px;
     box-shadow: rgb(180, 178, 178) 0px 0px 50px 5px;
 }
@@ -255,9 +255,19 @@
     grid-column: 1/11;
     grid-row: 9/11;
     font-size: 40px;
-    font-weight: bold;
+    /* font-weight: bold; */
     text-transform: uppercase;
     text-align: center;
-    /* margin-top: 1rem; */
-    text-decoration: underline;
+    margin-top: 1rem;
+    /* text-decoration: underline; */
+}
+
+/* from here container 4 is starting */
+.cont4{
+    height:100vh;
+    width:100%;
+    background-color: rgb(221, 223, 223);
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(10, 1fr);
+    display: grid;
 }
