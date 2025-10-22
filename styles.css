@@ -17,8 +17,7 @@
     grid-column: 1/11;
     grid-row: 1/2;
     background-color: rgb(234, 238, 238);
-    /* justify-content: end; */
-    /* align-items: center; */
+    box-shadow: rgb(180, 178, 178) 0px 0px 50px 5px;
 }
 .nav{
     display: flex;
@@ -226,27 +225,41 @@
 }
 .box1{
     grid-column: 2/6;
-    grid-row: 1/5;
+    grid-row: 1/4;
 }
 .box2{
     grid-column: 6/10;
-    grid-row: 1/5;
+    grid-row: 1/4;
 }
 .box3{
     grid-column: 2/6;
-    grid-row: 5/9;
+    grid-row: 4/7;
 }
 .box4{
     grid-column: 6/10;
-    grid-row: 5/9;
+    grid-row: 4/7;
 }
-.box1 , .box2 , .box3 , .box4{
+.box5{
+    grid-column: 2/10;
+    grid-row: 7/9;
+}
+.box1 , .box2 , .box3 , .box4 , .box5{
     background-color: rgb(255, 255, 255);
-    margin: 30px;
+    margin: 20px;
     border-radius: 20px;
     box-shadow: rgb(180, 178, 178) 0px 0px 50px 5px;
 }
-.box1:hover , .box2:hover , .box3:hover , .box4:hover{
+.box1 p , .box2 p , .box3 p , .box4 p , .box5 p{
+    font-size: 20px;
+    margin-left: 30px;
+    text-align:start;
+    margin-top: 20px;
+}
+.box1 img, .box2 img ,.box3 img , .box4 img{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.box1:hover , .box2:hover , .box3:hover , .box4:hover, .box5:hover{
     /* i dont know about this one |+\/*/
     transform: scale(1.05);
     transition: all 0.3s ease-in-out;
@@ -296,4 +309,8 @@
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     box-shadow: rgb(180, 178, 178) 0px 0px 50px 5px;
+}
+.boxx1 img, .boxx2 img, .boxx3 img{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
 }
