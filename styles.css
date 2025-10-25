@@ -139,22 +139,32 @@
     /* background-color: blue; */
     font-size: 40px;
     /* font-weight: bold; */
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
    /* text-decoration: underline; */
 }
 .socialMedia{
     height: 50%;
     width: 100%;
-    /* background-color: rgb(134, 134, 134); */
     display: flex;
-    justify-content:space-evenly;
+    justify-content:center;
     align-items: center;
+    gap: 20px;
 }
-#linkedin , #github , #gmail{
+#linkedin , #github {
     height: 50%;
-    width: 20%;
-    background-color: rgb(109, 109, 109);
-    /* color: white; */
+    width: 18%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+
+}
+#gmail{
+    height: 50%;
+    width: 25%;
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,12 +175,16 @@
     font-size: 10px;
     font-weight: bold;
     cursor: pointer;
-    color: white;
+    color: rgb(66, 66, 66);
 }
-#linkedin img , #github img , #gmail img{
+#linkedin img , #gmail img{
    height: 20px;
-   margin-left: 1rem;
+   margin-left: 5px;
    border-radius: 20%;
+}
+#github img {
+    height: 15px;
+    /* margin-left: 5px; */
 }
 #linkedin:hover , #github:hover , #gmail:hover{
     /* background-color: rgb(255, 255, 255); */
