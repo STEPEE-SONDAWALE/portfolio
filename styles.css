@@ -484,6 +484,7 @@ input, textarea {
     margin-top: 30px;
     /* font-size:15px ; */
     height: auto;
+    line-height: 30px;
 }
 .co1 strong{
 text-transform: uppercase;
@@ -495,6 +496,7 @@ text-transform: uppercase;
     /* background-color: rgb(180, 176, 176); */
     /* border: 2px solid rgb(255, 255, 255); */
      margin-top: 50px;
+     line-height: 30px;
 }
 .co3{
    grid-column: 4/6;
@@ -504,4 +506,52 @@ text-transform: uppercase;
     margin:30px;
     line-height: 40px;
     margin-left: 90px;
+}
+.logo{
+    display: flex;
+    gap: 1rem;
+    /* margin-top: 10px; */
+}
+.im1 ,.im2  {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(53, 52, 52);
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.im3{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(53, 52, 52);
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.im1:hover {
+    background-color: rgb(0, 119, 255);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.im2:hover {
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.im3:hover{
+    background-color: rgb(223, 74, 50);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.footer h5{
+    grid-column: 5/8;
+    grid-row: 6/8;
+    /* text-align: center; */
+    margin-top: 30px;
+    margin-left: 190px;
 }
