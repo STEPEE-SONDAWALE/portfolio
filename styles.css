@@ -92,11 +92,14 @@
 }
 .P30 button{
     margin-top: 15px;
-   margin-left: 10px;
-     font-size: 15px;
+    margin-left: 10px;
+    font-size: 15px;
     font-weight: bold;
-    text-decoration: wavy;
+    /* text-decoration: wavy; */
     text-transform: capitalize;
+    padding: 10px;
+    /* border: 30px; */
+    border-radius: 30px;
 }
 .part2{
     border: 6px solid rgb(56, 56, 56);
@@ -575,7 +578,6 @@ text-transform: uppercase;
 .footer h5{
     grid-column: 5/8;
     grid-row: 6/8;
-    /* text-align: center; */
     margin-top: 30px;
     margin-left: 190px;
 }
